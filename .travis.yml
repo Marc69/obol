@@ -1,3 +1,3 @@
 language: python
 sudo: required
-script: obol -w system user list
+script: flake8 obol
