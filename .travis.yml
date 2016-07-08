@@ -5,7 +5,6 @@ services:
 before_install:
 - sudo apt -y install ldap-utils python-flake8
 - git clone https://github.com/sstephenson/bats.git && sudo bats/install.sh /usr/local
-- docker logs ldap
 install:
 - sudo pip install -r requirements.txt
 - sudo python setup.py -q install
